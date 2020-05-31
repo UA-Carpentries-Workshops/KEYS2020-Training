@@ -13,7 +13,7 @@ humandate: "June 8, 2020"    # human-readable dates for the workshop (e.g., "Feb
 humantime: "June 12, 2020"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-06-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-06-12        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Team5"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Team6"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Crew"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/KEYS2020-Training # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
