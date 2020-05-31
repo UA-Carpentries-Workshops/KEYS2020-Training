@@ -273,7 +273,8 @@ please preview your site before committing, and make sure to run
 
 <!--
 <h2 id="syllabus">Syllabus</h2>
-
+-->
+<!--
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
@@ -281,7 +282,7 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
-
+-->
 <hr/>
 -->
 {% comment %}
