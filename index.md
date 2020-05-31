@@ -223,11 +223,12 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
+<!--
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-
+-->
 <hr/>
 
 
@@ -238,6 +239,8 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
+
+<!--
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
@@ -247,7 +250,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
-
+-->
 <hr/>
 
 {% comment %}
@@ -267,6 +270,8 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
+
+<!--
 <h2 id="syllabus">Syllabus</h2>
 
 {% if site.carpentry == "swc" %}
@@ -278,7 +283,7 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
-
+-->
 {% comment %}
 SETUP
 
