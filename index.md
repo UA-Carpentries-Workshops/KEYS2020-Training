@@ -13,7 +13,7 @@ humandate: "June 8, 2020"    # human-readable dates for the workshop (e.g., "Feb
 humantime: "June 12, 2020"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-06-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-06-12        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Team7"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Team8"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Crew"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/KEYS2020-Training # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -32,7 +32,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">GENERAL INFORMATION</h2>
 
 {% comment %}
 INTRODUCTION
@@ -182,8 +182,8 @@ Display the contact email address set in the configuration file.
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
 
+<h2 id="code-of-conduct">CODE OF CONDUCT</h2>
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. <!--This document also outlines how to report an incident if needed.-->
 </p>
@@ -211,7 +211,8 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+
+<h2 id="collaborative_notes">COLLABORATIVE NOTES</h2>
 
 <p>
 We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
@@ -241,7 +242,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 
 <!--
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">SCHEDULE</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -272,7 +273,7 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 
 
-<h2 id="syllabus">Syllabus</h2>
+<h2 id="syllabus">SYLLABUS</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
@@ -296,7 +297,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">SETUP</h2>
 
 <p>
   To participate in a
