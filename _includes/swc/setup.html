@@ -22,7 +22,7 @@
           <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
           <li>Run the installer and follow the steps below:
             <ol>
-              {% comment %} Git 2.23.0 Setup {% endcomment %}
+              {% comment %} Git 2.27.0 Setup {% endcomment %}
               <li>
                 Click on "Next" four times (two times if you've previously
                 installed Git).  You don't need to change anything
@@ -57,14 +57,20 @@
               </li>
               {% comment %} Configuring extra options {% endcomment %}
               <li>
+		Ensure that "Default (fast forward or merge) is selected and click on "Next".
+              </li>
 		Ensure that "Enable file system caching" and "Enable Git Credential Manager" are selected
 		and click on "Next".
               </li>
               {% comment %} Configuring experimental options {% endcomment %}
+              </li>
+		Click on "Next".
+              </li>	  
               <li>Click on "Install".</li>
               {% comment %} Installing {% endcomment %}
               {% comment %} Completing the Git Setup Wizard {% endcomment %}
-              <li>Click on "Finish".</li>
+              <li>Click on "Finish" or "Next".</li>
+              {% comment %} No "Finish" button on 20200602, only "Next" {% endcomment %}
             </ol>
           </li>
           <li>
