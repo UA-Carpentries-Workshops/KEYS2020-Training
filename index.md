@@ -213,7 +213,7 @@ We will use <a href="https://bit.ly/KEYS2020-Pad">https://bit.ly/KEYS2020-Pad</a
 <hr/>
 {% endif %}
 
-<h2>SESSION INFO GDOC</h2>
+<h2>SESSION INFO GOOGLE DOC</h2>
 
 <p>
   Session Info Google Doc at <a href="https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit">https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit</a>
