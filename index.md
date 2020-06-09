@@ -213,15 +213,12 @@ We will use <a href="https://bit.ly/KEYS2020-Pad">https://bit.ly/KEYS2020-Pad</a
 <hr/>
 {% endif %}
 
-<hr/>
-
+<h2>SESSION INFO GDOC</h2>
 
 <p>
   Session Info Google Doc at <a href="https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit">https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit</a>
 <p>
 
-
-<hr/>
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
